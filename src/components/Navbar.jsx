@@ -274,16 +274,8 @@ const Navbar = () => {
                 {label}
               </Link>
             ))}
-            <a
-              href="/resumes/Nipam_Parmar_Resume.pdf"
-              className="inline-block px-4 py-2 text-base font-semibold border-2 rounded-full text-indigo border-coral-600 hover:bg-teal-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2"
-              aria-label="View Nipam Parmar's Resume"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={handleResumeView}
-            >
-              Resume
-            </a>
+            
+            
           </div>
         </div>
       )}
