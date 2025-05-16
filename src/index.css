@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+    --font-heading: 'Cormorant Garamond', serif;
+    --font-body: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    margin: 0;
+    padding: 0;
+    color: #1f2937; /* Tailwind gray-800 */
+    background-color: #f9fafb; /* Tailwind gray-50 */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: #111827; /* Tailwind gray-900 */
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Override Navbar-specific fonts if needed */
+  nav, nav * {
+    font-family: var(--font-body);
+  }
+  
+  .text-2xl.font-bold {
+    font-family: var(--font-heading);
+  }
